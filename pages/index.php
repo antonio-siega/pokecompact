@@ -16,7 +16,7 @@
             <img src="../images/logo.png" class="img img-big-shadow float-none img-fluid mx-auto" style="min-width: 40%; max-width: 40%">
             <form class='row align-items-center d-block' action="index.php" method="GET">
                 <input type="text" class='my-2 w-50 shadow-sm' id="name" name="name" autofocus="true" placeholder="Charizard" required>
-                <button type="submit" class="btn btn-primary rounded-0 w-50 shadow-sm">Pesquisar</button>
+                <button type="submit" class="btn btn-primary rounded-0 w-50 shadow-sm">Search</button>
             </form><br>
 
     
