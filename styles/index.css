@@ -1,0 +1,19 @@
+.bg-image {
+  background-image: url("../images/bg.webp");
+  background-color: #7cad71;
+
+  height: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.img-big-shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.img-sm-shadow {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
