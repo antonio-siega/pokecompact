@@ -1,8 +1,13 @@
 <?php
 
 function cacheRequest($fileNameWithoutExtension, $jsonData) {
+    $dir = getcwd() . "\\..\\cache";
     $path = getcwd() . "\\..\\cache\\$fileNameWithoutExtension.json";
 
+    if (!is_dir($dir)) {
+        mkdir($dir);
+    }
+    
     $file = fopen($path, "c+"); /*c+ so it doesn't truncate the file, but fseek still
                                 affects the writing operations*/
     if (filesize($path) === 0) {
