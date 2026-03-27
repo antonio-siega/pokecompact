@@ -9,7 +9,7 @@ No image belongs to me. Since this is just a study, not a commercial project, th
 # Dependencies
 This project uses the [PokéPHP wrapper library](https://github.com/danrovito/pokephp), made by Dan Rovito, with a one-line change to fix a deprecated feature used in the source code (implicit class variable declaration inside constructor).
 # Requirements
-Composer >= 2.9.5
-PHP >= 5.3.3
+* Composer >= 2.9.5
+* PHP >= 5.3.3
 
 ![pokecompact_demonstration](https://github.com/antonio-siega/pokecompact/blob/main/pokecompact_demonstration.gif)
