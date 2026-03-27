@@ -5,6 +5,7 @@ PHP website that provides compact data about pokémon (limited to sprite, type, 
 * Dynamic data requisition using AJAX;
 * Notions of responsible API consumption;
 * Notions of responsive design using Bootstrap.
+
 No image belongs to me. Since this is just a study, not a commercial project, the logo is AI-generated and the background image was made by reddit user u/Sandi315 and posted on r/Pokemon.
 # Dependencies
 This project uses the [PokéPHP wrapper library](https://github.com/danrovito/pokephp), made by Dan Rovito, with a one-line change to fix a deprecated feature used in the source code (implicit class variable declaration inside constructor).
